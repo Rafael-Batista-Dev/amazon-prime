@@ -6,7 +6,12 @@ function Gif() {
     <div>
       <img
         src={GifLoading}
-        style={{ width: "150px", margin: "auto", display: "block" }}
+        style={{
+          width: "100px",
+          margin: "auto",
+          marginTop: "20rem",
+          display: "block",
+        }}
         alt="Loading..."
       />
     </div>

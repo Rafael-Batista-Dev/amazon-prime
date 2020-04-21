@@ -6,6 +6,7 @@ export class ContainerMovies extends Component {
   render() {
     const { movies } = this.props;
     let content = "";
+
     content =
       movies.Response === "True"
         ? movies.Search.map((movie, index) => (
