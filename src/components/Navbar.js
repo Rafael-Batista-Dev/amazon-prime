@@ -5,7 +5,10 @@ function Navbar() {
   return (
     <div>
       <>
-        <nav style={{ background: "#000" }} className="navbar fixed-top mb-5">
+        <nav
+          style={{ background: "#000", borderBottom: "0.4px solid #6e6e6e" }}
+          className="navbar fixed-top mb-5"
+        >
           <div className="container">
             <div className="navbar-header">
               <a className="navbar-brand text-white text-lg brand-text" to="/">

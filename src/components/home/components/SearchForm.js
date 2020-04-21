@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { connect } from "react-redux";
+import styled from "styled-components";
 
 import {
   searchMovie,
@@ -22,7 +23,7 @@ export class SearchForm extends Component {
     return (
       <>
         <form className="form-inline" id="searchForm" onSubmit={this.onSubmit}>
-          <input
+          <Input
             className="form-control mr-sm-2"
             type="text"
             placeholder="Pesquisar..."
@@ -46,3 +47,12 @@ export default connect(mapStateToProps, {
   fetchMovies,
   setLoading,
 })(SearchForm);
+
+const Input = styled.input`
+  background: black;
+  opacity: 0.75;
+  -moz-opacity: 0.75;
+  color: #fff;
+  font-size: 1rem;
+  transsition: background 0.2s ease-in;
+`;
