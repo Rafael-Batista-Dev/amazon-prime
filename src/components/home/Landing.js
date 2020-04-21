@@ -7,7 +7,7 @@ export class Landing extends Component {
   render() {
     const { loading } = this.props;
     return (
-      <div style={{ marginTop: "11rem" }} className="container">
+      <div style={{ marginTop: "5rem" }} className="container">
         {loading ? <Gif /> : <ContainerMovies />}
       </div>
     );

@@ -1,6 +1,5 @@
-* {
-  margin: 0;
-  padding: 0;
+body {
+  background: #000007;
 }
 
 ::-webkit-scrollbar {
@@ -13,30 +12,10 @@
 ::-webkit-scrollbar-thumb {
   -webkit-border-radius: 10px;
   border-radius: 10px;
-  background: #e0a800;
+  background: #17a2b8;
   -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
-}
-:root {
-  --main-orange: #e0a800;
-  --main-orage-hover: #af8c21;
-  --main-dark: rgba(20, 20, 20);
-  --main-deep-dark: rgba(0, 0, 0);
-  --main-grey: rgba(153, 153, 153);
 }
 
 * {
   box-sizing: border-box;
-}
-
-body {
-  font-family: "Helvetica";
-  -webkit-font-smoothing: antialiased;
-  background: #000000;
-  color: #fff;
-  overflow-x: hidden;
-}
-
-a {
-  text-decoration: none;
-  color: #fff;
 }

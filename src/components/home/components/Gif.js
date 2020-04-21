@@ -9,7 +9,6 @@ function Gif() {
         style={{
           width: "100px",
           margin: "auto",
-          marginTop: "20rem",
           display: "block",
         }}
         alt="Loading..."
