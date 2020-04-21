@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 import styled from "styled-components";
 
 export class CardMovies extends Component {
@@ -11,8 +12,8 @@ export class CardMovies extends Component {
           <h5 className="card-title">
             {movie.Title} - {movie.Year}
           </h5>
-          <a
-            className="btn"
+          <Link
+            className="btn btn-outline-info"
             style={{ color: "#FFFFFF" }}
             to={"/movie/" + movie.imdbID}
           >
@@ -21,7 +22,7 @@ export class CardMovies extends Component {
               style={{ marginLeft: "10px" }}
               className="fas fa-chevron-right"
             />
-          </a>
+          </Link>
         </Card>
       </div>
     );
@@ -33,12 +34,6 @@ export default CardMovies;
 const Card = styled.div`
   background: #07070d;
   box-shadow: 0 0.3px 0 0.3px rgba(211, 211, 211);
-  .btn {
-    background: #17a2b8;
-    &:hover {
-      background: #127484;
-    }
-  }
 
   h5 {
     color: #e0a800;

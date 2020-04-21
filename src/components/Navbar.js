@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import SearchForm from "./home/components/SearchForm";
 
 function Navbar() {
@@ -11,7 +12,10 @@ function Navbar() {
         >
           <div className="container">
             <div className="navbar-header">
-              <a className="navbar-brand text-white text-lg brand-text" to="/">
+              <Link
+                className="navbar-brand text-white text-lg brand-text"
+                to="/"
+              >
                 <h2>
                   <span
                     style={{ color: "#e0a800" }}
@@ -20,7 +24,7 @@ function Navbar() {
                     <strong style={{ color: "#17a2b8" }}> Prime</strong>
                   </span>
                 </h2>
-              </a>
+              </Link>
             </div>
             <SearchForm />
           </div>
