@@ -21,7 +21,7 @@
 
 <p>&nbsp;&nbsp;</p>
 
-![aplicacao](https://github.com/Rafael-Batista-Dev/amazon-prime/blob/master/src/images/amazon.gif)
+![aplicacao](https://github.com/Rafael-Batista-Dev/amazon-prime/blob/master/src/imagens/amazon.gif)
 
 ## Tecnologias Utilizadas 🔥
 
