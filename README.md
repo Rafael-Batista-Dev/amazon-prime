@@ -19,9 +19,14 @@
 </p>
 <p>&nbsp;&nbsp;</p>
 
-![aplicacao](https://github.com/Rafael-Batista-Dev/amazon-prime/blob/master/src/imagens/amazon.gif)
+<p align="center" width= '100%'>
+<img alt="MarvelQuiz" title="#MarvelQuiz" src="https://github.com/Rafael-Batista-Dev/amazon-prime/blob/master/src/imagens/amazon.gif" />
+</p>
 
-## Tecnologias Utilizadas 🔥
+
+## 🛠 Tecnologias
+
+As seguintes ferramentas foram usadas na construção do projeto:
 
 - [Node.js](https://nodejs.org/en/)
 - [React](https://reactjs.org)
@@ -42,10 +47,46 @@ _Lista de techs._
 ✔ Redux-thunk
 ✔ Styled-components
 
-### Minhas redes sociais 🔗
+## 🚀 Como rodar este projeto
 
-Rafael batista – [@Linkedin](https://www.linkedin.com/in/rafael-batista-dev/)
-E-mail – rafaelbatista.sth@gmail.com
-Github –[https://github.com/](https://github.com/Rafael-Batista-Dev)
+Este projeto considerar apenas em uma parte:
 
-Distribuído sob a licença MIT. Veja `LICENSE` para mais informações.
+### Pré-requisitos
+
+Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
+[Git](https://git-scm.com), [Node.js][nodejs].
+Além disto é bom ter um editor para trabalhar com o código como [VSCode][vscode]
+
+### 🎲 Rodando o Projeto
+
+```bash
+# Clone este repositório
+$ https://github.com/Rafael-Batista-Dev/devrada
+
+# Acesse a pasta do projeto no terminal/cmd
+$ cd amazon-prime
+
+# Instale as dependências
+$ npm install
+
+# Execute a aplicação em modo de desenvolvimento
+$ backend npm start OU yarn start
+
+## 📝 Licença
+
+Este projeto esta sobe a licença MIT. Veja a [LICENÇA](license) para saber mais.
+
+Feito com ❤️ por Rafael Batista 👋🏽 [Entre em contato!](www.linkedin.com/in/rafa-dev)
+
+:email: dev.rafaelbatista@gmail.com
+:octocat: Github –[https://github.com/](https://github.com/Rafael-Batista-Dev)
+
+[nodejs]: https://nodejs.org/
+[reactjs]: https://reactjs.org
+[yarn]: https://yarnpkg.com/
+[vscode]: https://code.visualstudio.com/
+[vceditconfig]: https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig
+[license]: https://opensource.org/licenses/MIT
+[vceslint]: https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint
+[prettier]: https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode
+```
